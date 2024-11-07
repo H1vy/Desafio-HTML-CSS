@@ -1,0 +1,226 @@
+*{ 
+  margin: 0px 0px 0px 0px;
+  
+}
+
+@font-face {
+  font-family: 'idroid';
+  src: url(/pacote/fontes/idroid.otf);
+}
+
+:root {
+  font-family: "Quicksand", sans-serif;
+}
+
+
+body{
+  background-size: cover;
+  background-color: rgb(96, 186, 156);
+  margin: 0;
+  padding: 0;
+  min-width: fit-content;
+}
+
+h2{
+  text-align: left;
+  width: auto;
+  background-color: rgb(152, 241, 152);
+  background-image: linear-gradient(to left, white, rgba(223, 255, 223, 0.114));
+  font-family: 'idroid';
+  font-size: 20px;
+  color: rgb(0, 70, 0);
+  padding: 3px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 20px;
+}
+
+span{
+  color: rgb(2, 57, 2);
+  font-size: medium;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+span:hover{
+  background-color: rgba(89, 128, 57, 0.402);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.htop {
+  font-size: 35px;
+  font-family: 'idroid';
+  color: rgb(0, 70, 0);
+  text-align: left;
+  margin-left: 20px;
+}
+
+p {
+  text-align: justify;
+  text-indent: 5%;
+  margin: 0px 20px 0px 20px;
+}
+
+header{
+  background-color: greenyellow;
+  background-image: linear-gradient(to bottom, rgb(128, 252, 151), rgb(46, 88, 46) );
+  background-size: cover;
+  width: 100%;
+  min-width: fit-content;
+  max-height: auto;  
+  color: white;
+}
+.cabeca {
+  width: auto;
+  height: 195px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.titulo{
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  text-shadow: black 0px 2px 2px;
+}
+.subtitulo {
+  margin: 0px 0px 55px 0px;
+  text-align: center;
+  text-shadow: black 0px 2px 2px;
+}
+.navegar { 
+  width: 500px;
+  height: 20px;
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+}
+
+a.topbar {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  padding: 5px;
+}
+
+a.topbar:hover{
+  background-color: rgba(129, 181, 99, 0.545);
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+main{
+  max-width: 850px;
+  min-width: 350;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
+  box-shadow: rgb(71, 71, 71) 0px 15px 40px;
+  padding-bottom: 20px;
+
+}
+
+.fotoum{
+  overflow: hidden;
+}
+
+.fotodois{
+  overflow: hidden;
+}
+
+.fototres img{
+  overflow: hidden;
+  width: 400px;
+  height: 250px;
+}
+.boxvideo > figure {
+  box-sizing: border-box;
+  background-color: rgb(0, 75, 0);
+  padding: 20px;
+  width: 100%;
+  height: 415px;
+  overflow: hidden;
+}
+
+iframe{
+ border-radius: 15px;
+ 
+}
+
+.containerext{
+  background-color: rgb(171, 241, 218);
+  border-radius: 0px 0px 15px 15px;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: fit-content;
+
+}
+
+.titulobox{
+  background-color: rgb(96, 255, 96);
+  padding: 10px;
+  box-sizing: content-box;
+  border-radius: 15px 15px 0px 0px;
+  text-align: left;
+  color: white;
+  margin: 20px;
+  position: relative;
+  top: 20px;
+  
+  
+}
+
+.containerlist{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.list{
+  width: 500px;
+  height: 160px;
+  columns: 2;
+  text-align: left;
+  overflow: hidden;
+  padding: 5x;
+  margin-left: 50px;
+}
+
+li{
+  list-style-type: "\1F5F8";
+
+}
+
+abbr:hover{
+  background-color: rgba(85, 166, 166, 0.643);
+  padding: 2px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.containerrodape {
+  background-color: forestgreen;
+  text-align: center;
+  padding: 5px;
+  background-size: cover;
+  min-width: fit-content;
+  min-height: 100%;
+}
+.prodape{
+  text-align: center;
+  color: white;
+}
+.arodape {
+  text-decoration: none;
+  color: white;
+}
